@@ -15,11 +15,13 @@
           {{ $Inimg := resources.Get "images/LinkedIn.svg" }}
           {{ $Discordimg := resources.Get "images/Discord.svg" }}
           {{ $Integartionimg := resources.Get "images/Integration.svg" }}
-          <img class="w-auto" alt="logo" src="{{ $Twitterbimg.Permalink }}">
-          <img class="w-auto" alt="logo" src="{{ $Fbimg.Permalink }}">
-          <img class="w-auto" alt="logo" src="{{ $Inimg.Permalink }}">
-          <img class="w-auto" alt="logo" src="{{ $Discordimg.Permalink }}">
-          <img class="w-auto" alt="logo" src="{{ $Integartionimg.Permalink }}">
+          <a href="https://twitter.com/Hedgepiefinance" target="_blank" rel="noopener">
+            <img class="w-auto" alt="logo" src="{{ $Twitterbimg.Permalink }}">
+          </a>
+          <!--<img class="w-auto" alt="logo" src="{{ $Discordimg.Permalink }}">-->
+          <!--<img class="w-auto" alt="logo" src="{{ $Fbimg.Permalink }}">-->
+          <!--<img class="w-auto" alt="logo" src="{{ $Inimg.Permalink }}">-->
+          <!--<img class="w-auto" alt="logo" src="{{ $Integartionimg.Permalink }}">-->
         </div>
       </div>
       <div class="hidden  md:flex md:justify-start md:items-start md:gap-x-12">
